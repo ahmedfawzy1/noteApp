@@ -1,4 +1,4 @@
-# freshcart
+# NoteApp
 
 **a single-page web application created with ReactJS.**
 Features:
