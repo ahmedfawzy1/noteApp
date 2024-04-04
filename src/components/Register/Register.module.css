@@ -5,11 +5,3 @@
   height: 1px;
   background: #eee;
 }
-.hcustom {
-  height: calc(100% - 73px);
-}
-@media (max-width: 450px) {
-  .hcustom {
-    height: 100%;
-  }
-}

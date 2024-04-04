@@ -42,14 +42,16 @@ export default function LogIn() {
   });
 
   return (
-    <section className="vh-100">
-      <div className={`container-fluid ${style.hcustom}`}>
-        <div className="row d-flex justify-content-center align-items-center flex-column flex-nowrap h-100 ms-5">
-          <div className="col-md-4">
-            <img src={login} className="img-fluid" alt="logIn" />
+    <section className="py-4">
+      <div className={`container`}>
+        <div className="row d-flex justify-content-center align-items-center flex-column flex-nowrap">
+          <div className="col-md-5">
+            <div className="image">
+              <img src={login} className="img-fluid" alt="logIn" />
+            </div>
           </div>
-          <div className="col-md-4">
-            <form onSubmit={formik.handleSubmit}>
+          <div className="col-md-5">
+            <form className="mt-4" onSubmit={formik.handleSubmit}>
               <div className="text">
                 <h3>Welcome Back</h3>
               </div>
